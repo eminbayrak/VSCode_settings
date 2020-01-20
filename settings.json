@@ -1,0 +1,137 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "Operator Mono Lig, Menlo, Monaco, 'Courier New', monospace,  Source Code Pro",
+    "editor.fontSize": 14,
+    
+    "editor.fontLigatures": true,
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    // "terminal.integrated.fontFamily": "Menlo for Powerline",
+    "terminal.integrated.fontFamily": "Ubuntu Mono derivative Powerline",
+    "terminal.integrated.fontSize": 14,
+    "workbench.colorCustomizations" : {
+        "terminal.foreground" : "#fffd7c",
+        "terminal.background" : "#000",
+        "editor.background": "#1b1b1b"
+    },
+    "editor.tokenColorCustomizations": {
+        "[Dark Chrome DevTools]": {
+          "textMateRules": [
+            {
+              "scope": "emphasis",
+              "settings": {
+                "fontStyle": "italic"
+              }
+            },
+            {
+              "scope": "strong",
+              "settings": {
+                "fontStyle": "bold"
+              }
+            },
+            {
+              "scope": "entity.other.attribute-name",
+              "settings": {
+                "fontStyle": "italic"
+              }
+            },
+            {
+              "scope": "markup.underline",
+              "settings": {
+                "fontStyle": "underline"
+              }
+            },
+            {
+              "scope": "markup.bold",
+              "settings": {
+                "fontStyle": "bold"
+              }
+            },
+            {
+              "scope": "markup.heading",
+              "settings": {
+                "fontStyle": "bold"
+              }
+            },
+            {
+              "scope": "markup.italic",
+              "settings": {
+                "fontStyle": "italic"
+              }
+            },
+            {
+              "scope": "storage.type",
+              "settings": {
+                "fontStyle": "italic"
+              }
+            },
+            {
+              "scope": "storage.modifier",
+              "settings": {
+                "fontStyle": "italic"
+              }
+            },
+            {
+              "name": "String interpolation",
+              "scope": [
+                "punctuation.definition.template-expression.begin",
+                "punctuation.definition.template-expression.end",
+                "punctuation.section.embedded"
+              ],
+              "settings": {
+                "fontStyle": "italic"
+              }
+            },
+            {
+              "scope": "keyword.control",
+              "settings": {
+                "fontStyle": "italic"
+              }
+            },
+            {
+              "scope": [
+                "keyword.operator.new",
+                "keyword.operator.expression",
+                "keyword.operator.cast",
+                "keyword.operator.sizeof",
+                "keyword.operator.logical.python"
+              ],
+              "settings": {
+                "fontStyle": "italic"
+              }
+            },
+            {
+              "name": "this.self",
+              "scope": "variable.language",
+              "settings": {
+                "fontStyle": "italic",
+                "foreground": "#ff5874"
+              }
+            },
+            {
+              "name": "@Decorator",
+              "scope": ["meta.decorator punctuation.decorator"],
+              "settings": {
+                "fontStyle": "italic"
+              }
+            },
+            {
+              "scope": ["punctuation.definition.comment", "comment"],
+              "settings": {
+                // "foreground": "#ff5874",
+                "fontStyle": "italic"
+              }
+            }
+          ]
+        },
+    },
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 0,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "files.associations": {
+        "*.twig": "html",
+    },
+    "workbench.colorTheme": "Dark Chrome DevTools"
+}
