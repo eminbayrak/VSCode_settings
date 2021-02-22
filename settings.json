@@ -1,137 +1,38 @@
 {
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.fontFamily": "Operator Mono Lig, Menlo, Monaco, 'Courier New', monospace,  Source Code Pro",
-    "editor.fontSize": 14,
-    
+    "editor.fontFamily": "Consolas ligaturized v2, SF Mono, Liga Menlo, Operator Mono, Operator Mono Lig, Consolas, 'Courier New', monospace",
+    "tabnine.experimentalAutoImports": true,
     "editor.fontLigatures": true,
-    "terminal.external.osxExec": "iTerm.app",
-    "terminal.integrated.shell.osx": "/bin/zsh",
-    // "terminal.integrated.fontFamily": "Menlo for Powerline",
-    "terminal.integrated.fontFamily": "Ubuntu Mono derivative Powerline",
-    "terminal.integrated.fontSize": 14,
-    "workbench.colorCustomizations" : {
-        "terminal.foreground" : "#fffd7c",
-        "terminal.background" : "#000",
-        "editor.background": "#1b1b1b"
+    "workbench.colorTheme": "Tokyo Night",
+    "git.enableSmartCommit": true,
+//     "window.zoomLevel": 0,
+//     "git.enableSmartCommit": true,
+//     "python.defaultInterpreterPath": "C:\\Users\\ebayrak\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe",
+//     "python.pythonPath": "C:\\Users\\ebayrak\\AppData\\Local\\Programs\\Python\\Python38-32\\",
+    "editor.codeActionsOnSave": null,
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.fontFamily": "monospace",
+    "workbench.colorCustomizations": {
+        "editor.background": "#111014",
+        "editorGutter.background": "#111014",
+        "terminal.background": "#111014",
+        "terminal.integrated.fontSize": 9,
+        "terminal.integrated.lineHeight": 9,
+        "editor.lineHighlightBackground": "#211F27",
+        "editorLineNumber.foreground": "#dd609b",
+        "editor.lineHighlightBorder": "#211F27",
+        "activityBar.background": "#111014",
+        "editor.selectionBackground": "#5a2f56",
     },
     "editor.tokenColorCustomizations": {
-        "[Dark Chrome DevTools]": {
-          "textMateRules": [
-            {
-              "scope": "emphasis",
-              "settings": {
-                "fontStyle": "italic"
-              }
-            },
-            {
-              "scope": "strong",
-              "settings": {
-                "fontStyle": "bold"
-              }
-            },
-            {
-              "scope": "entity.other.attribute-name",
-              "settings": {
-                "fontStyle": "italic"
-              }
-            },
-            {
-              "scope": "markup.underline",
-              "settings": {
-                "fontStyle": "underline"
-              }
-            },
-            {
-              "scope": "markup.bold",
-              "settings": {
-                "fontStyle": "bold"
-              }
-            },
-            {
-              "scope": "markup.heading",
-              "settings": {
-                "fontStyle": "bold"
-              }
-            },
-            {
-              "scope": "markup.italic",
-              "settings": {
-                "fontStyle": "italic"
-              }
-            },
-            {
-              "scope": "storage.type",
-              "settings": {
-                "fontStyle": "italic"
-              }
-            },
-            {
-              "scope": "storage.modifier",
-              "settings": {
-                "fontStyle": "italic"
-              }
-            },
-            {
-              "name": "String interpolation",
-              "scope": [
-                "punctuation.definition.template-expression.begin",
-                "punctuation.definition.template-expression.end",
-                "punctuation.section.embedded"
-              ],
-              "settings": {
-                "fontStyle": "italic"
-              }
-            },
-            {
-              "scope": "keyword.control",
-              "settings": {
-                "fontStyle": "italic"
-              }
-            },
-            {
-              "scope": [
-                "keyword.operator.new",
-                "keyword.operator.expression",
-                "keyword.operator.cast",
-                "keyword.operator.sizeof",
-                "keyword.operator.logical.python"
-              ],
-              "settings": {
-                "fontStyle": "italic"
-              }
-            },
-            {
-              "name": "this.self",
-              "scope": "variable.language",
-              "settings": {
-                "fontStyle": "italic",
-                "foreground": "#ff5874"
-              }
-            },
-            {
-              "name": "@Decorator",
-              "scope": ["meta.decorator punctuation.decorator"],
-              "settings": {
-                "fontStyle": "italic"
-              }
-            },
-            {
-              "scope": ["punctuation.definition.comment", "comment"],
-              "settings": {
-                // "foreground": "#ff5874",
-                "fontStyle": "italic"
-              }
-            }
-          ]
+        "[Papaya]": {
+            "comments": "#1a7058",
+            "strings": "#b93f78",
+        },
+        "[Tokyo Night]": {
+            "comments": "#b93f78",
+            // "strings": "#b93f78",
         },
     },
-    "editor.minimap.enabled": false,
-    "window.zoomLevel": 0,
-    "git.enableSmartCommit": true,
-    "git.confirmSync": false,
-    "git.autofetch": true,
-    "files.associations": {
-        "*.twig": "html",
-    },
-    "workbench.colorTheme": "Dark Chrome DevTools"
+    "open-php-html-js-in-browser.selectedBrowser": "",
+    "python.defaultInterpreterPath": "C:\\Python39\\python.exe",
 }
