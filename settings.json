@@ -15,13 +15,17 @@
         "editor.background": "#111014",
         "editorGutter.background": "#111014",
         "terminal.background": "#111014",
+        "terminal.foreground":"#ffffff",
         "terminal.integrated.fontSize": 9,
         "terminal.integrated.lineHeight": 9,
+        "terminal.ansiRed": "#ff0000",
+        "terminal.ansiWhite":"#000000",
         "editor.lineHighlightBackground": "#211F27",
         "editorLineNumber.foreground": "#dd609b",
         "editor.lineHighlightBorder": "#211F27",
         "activityBar.background": "#111014",
         "editor.selectionBackground": "#5a2f56",
+        "editor.rangeHighlightBackground": "#00AA00"
     },
     "editor.tokenColorCustomizations": {
         "[Papaya]": {
@@ -35,4 +39,7 @@
     },
     "open-php-html-js-in-browser.selectedBrowser": "",
     "python.defaultInterpreterPath": "C:\\Python39\\python.exe",
+    "git.autofetch": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "diffEditor.ignoreTrimWhitespace": false,
 }
